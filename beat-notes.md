@@ -3,7 +3,6 @@
 > This file is your editorial position on what matters in your patch. The agent reads it every time it runs. Without it, the agent has no idea what's relevant to *you*.
 >
 > Edit freely. Update it when your priorities shift. Treat it as a living document — its quality directly determines the quality of your digest.
-
 ---
 
 ## Who I am
