@@ -8,16 +8,20 @@ Built for the Women in Journalism workshop on AI agents — May 2026.
 
 ---
 
-## Three ways to use it
+## Two ways to use it
 
-| | Skill (Claude or Codex) | Standalone system prompt | Claude Project (one-click) |
-|---|---|---|---|
-| **Works with** | Claude (claude.ai or Desktop) — Free, Pro, Max, Team, Enterprise. Codex CLI, IDE, app. | Any AI tool with a system prompt / custom instructions field (ChatGPT, Gemini, Claude, Cursor) | Claude (claude.ai or Desktop) |
-| **Setup** | Download zip, upload to Skills (Claude) or drop into `.agents/skills/` (Codex) | Copy one file, paste as system prompt | Click link, clone Project |
-| **Best for** | Claude or Codex users who want it to feel native | Anyone using a tool other than Claude or Codex | Fastest start — pre-loaded and ready |
-| **File** | `SKILL.md` + 3 context files | `SYSTEM_PROMPT.md` + 3 context files | _(no files — Project link below)_ |
+| | Skill (Claude or Codex) | Standalone system prompt |
+|---|---|---|
+| **Works with** | Claude (claude.ai or Desktop) — Free, Pro, Max, Team, Enterprise. Codex CLI, IDE, app. | Any AI tool with a system prompt / custom instructions field (ChatGPT, Gemini, Claude, Cursor) |
+| **Setup** | Fork repo, edit on GitHub, download zip, upload to Skills (Claude) or drop into `.agents/skills/` (Codex) | Copy one file, paste as system prompt |
+| **Best for** | Claude or Codex users who want it to feel native | Anyone using a tool other than Claude or Codex |
+| **File** | `SKILL.md` + 3 context files | `SYSTEM_PROMPT.md` + 3 context files |
 
-All three paths share the same three context files (`beat-notes.md`, `source-list.md`, `output-format.md`). You edit those once for your beat. They become your editorial layer — portable across all three paths.
+Both paths share the same three context files (`beat-notes.md`, `source-list.md`, `output-format.md`). You edit those once for your beat. They become your editorial layer — portable across both paths.
+
+> **Want to install it right now?** The repo also contains a `/demo/` folder with **install-ready** versions of the context files — same agent, but stripped of the editing guidance you see in the root files. If you just want to grab something that runs in 60 seconds, zip the contents of `/demo/` and upload it as a Claude Skill.
+>
+> The root files are the **teaching version** — they include inline guidance to help you understand what each section is for. Use those when you're ready to adapt the agent for your own beat.
 
 ---
 
@@ -29,9 +33,9 @@ Skills are available on Claude Free, Pro, Max, Team, and Enterprise plans, and i
 
 ### Install (Claude)
 
-1. **Download this repo as a ZIP** (green Code button → Download ZIP). Unzip.
-2. **Edit the three context files** — `beat-notes.md`, `source-list.md`, `output-format.md`. Replace the example content (a UK health policy reporter) with your own. _This is the work that makes the agent yours._
-3. **Re-zip the folder** (the one containing `SKILL.md` and your edited context files).
+1. **Fork this repo** (top-right of the GitHub page). This makes a copy you own and can edit.
+2. **Edit the three context files in your fork** — `beat-notes.md`, `source-list.md`, `output-format.md`. Click any file → pencil icon → edit in the browser → commit. Replace the example content (a UK health policy reporter) with your own. *This is the work that makes the agent yours.*
+3. **Download your fork as a ZIP** (green Code button → Download ZIP). Unzip.
 4. **In Claude:** go to *Customize > Skills* → click `+` → *Create skill* → *Upload a skill* → upload your ZIP.
 5. **Toggle the skill on.**
 
@@ -46,11 +50,19 @@ Skills are available on Claude Free, Pro, Max, Team, and Enterprise plans, and i
 
 ### Use it
 
-In any Claude conversation, say:
+Once the skill is installed, in any Claude conversation:
 
-> *Run today's digest. Focus on [topic]. Sources: [URLs]. Time window: last 24 hours.*
+> *Run today's digest.*
 
-Or use the daily prompt template in `DAILY_PROMPT.md`.
+Or with more guidance:
+
+> *Run today's digest. Focus on the GP contract negotiations. Sources: HSJ, Pulse, BMA press releases. Time window: last 48 hours.*
+
+Or for a one-off task:
+
+> *Use my digging agent to compare how the Guardian, Times, and BBC covered yesterday's NHS workforce announcement.*
+
+The skill takes care of the rest. You don't need to paste a long template each morning — the recipe lives inside the skill.
 
 ---
 
@@ -72,26 +84,40 @@ For journalists using ChatGPT, Gemini, Cursor, or any other AI tool with a syste
 
 ### Use it
 
-In your conversation, say:
-
-> *Run today's digest. Focus on [topic]. Sources: [URLs]. Time window: last 24 hours.*
-
-Or use the daily prompt template in `DAILY_PROMPT.md`.
+Same prompts as above. Just talk to the model normally; the system prompt handles the rest.
 
 ---
 
-## Option 3: Claude Project (one-click clone)
+## How to edit your context files
 
-The fastest start. A pre-configured Claude Project with the system prompt loaded and the three context-file templates ready to edit.
+The agent's quality depends entirely on the three context files. You don't need to install a code editor to edit them — markdown is just plain text. Two journalist-friendly ways:
 
-### Install
+**Option A — Edit on GitHub directly.** Fork this repo, then click any `.md` file → pencil icon (top right) → edit in your browser → commit. No download, no local tools. The cleanest workflow if you want your editorial standards version-controlled and portable.
 
-1. **Click here:** [Claude Project share link — to be added after the workshop]
-2. **Clone the Project** into your account.
-3. **Open the three context files** in the Project's knowledge and edit them for your beat.
-4. **Run the daily prompt** in any conversation in the Project.
+**Option B — Let Claude help you write them.** If you're staring at an empty template, paste the file into a Claude conversation and say:
 
-That's it. No upload, no zip, no copy-paste.
+> *"This is a context file for an AI agent that does research for me. Help me adapt it — I cover [your beat]. Ask me questions to fill it in properly."*
+
+Claude will interview you, generate a properly-formatted file, and you copy the result back. You'll have used AI to set up your AI.
+
+If you prefer a local editor: any plain-text editor works (VS Code, Sublime, BBEdit, even TextEdit on Mac with *Format → Make Plain Text*). Avoid Word — it'll add formatting that breaks the markdown.
+
+---
+
+## Running multiple beats
+
+If you cover more than one patch — or you want a separate digging agent for a specific project — duplicate the demo folder and give each its own identity:
+
+1. Copy the `/demo/` folder. Rename to something specific: `/demo-climate/`, `/demo-courts/`, `/demo-foreign-affairs/`.
+2. Edit the new folder's `beat-notes.md`, `source-list.md`, and `output-format.md` for that beat.
+3. Open `SKILL.md` in the new folder. In the frontmatter at the top, change:
+   - `name:` to something unique — e.g., `digging-agent-climate`
+   - `description:` to mention the new beat — e.g., *"A digging agent for a climate reporter — produces daily digests on energy policy, COP negotiations, and emissions data."*
+4. Zip the new folder. Upload it as a separate Claude Skill.
+
+You can have as many digging agents installed as you want. To invoke one specifically, say *"run my climate digging agent"* — Claude matches the name. Or describe the task — *"give me a digest of yesterday's COP coverage"* — and Claude picks the right skill from the descriptions.
+
+**Why one skill per beat, rather than one giant skill with everything?** The skill's `description` is what triggers it. A single skill with five beats stuffed in would trigger on anything vaguely beat-shaped, and you'd lose the precision. One skill, one beat — that boundary is itself an editorial decision.
 
 ---
 
@@ -100,14 +126,15 @@ That's it. No upload, no zip, no copy-paste.
 ```
 README.md                ← This file. Read first.
 
-SKILL.md                 ← The agent, packaged as a Claude Skill.
+SKILL.md                 ← The agent, packaged as a Claude / Codex Skill.
 SYSTEM_PROMPT.md         ← The agent, as a standalone system prompt.
 
 beat-notes.md            ← Your editorial position on what matters in your patch.
 source-list.md           ← Your editorial position on whose work to trust.
 output-format.md         ← Your editorial position on how output is shaped.
 
-DAILY_PROMPT.md          ← The short prompt you paste each morning.
+demo/                    ← Clean install-ready version (no editing guidance).
+                           Used in the live workshop demo.
 ```
 
 ---
@@ -159,6 +186,6 @@ The agent surfaces material. You decide what's a story.
 Built by Parvathi (Ale) Subbiah · AI Lab, The Economist
 For Women in Journalism · May 2026
 
-Mirrors the structure of [Script Wizard](https://github.com/tristanwerkmeister/scriptwizard) by Tristan Werkmeister (Reuters), who walked the same community through AI-assisted social video scripts the previous week.
+Mirrors the structure of [Script Wizard](https://github.com/tristanwerkmeister/scriptwizard) by Tristan Werkmeister (Reuters), who walked the same community through AI-assisted social video scripts earlier in this series.
 
 Questions, suggestions, or you've built something interesting with this? [contact details to be added]
