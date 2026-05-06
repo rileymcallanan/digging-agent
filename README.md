@@ -106,14 +106,18 @@ If you prefer a local editor: any plain-text editor works (VS Code, Sublime, BBE
 
 ## Running multiple beats
 
-If you cover more than one patch — or you want a separate digging agent for a specific project — duplicate the demo folder and give each its own identity:
+If you cover more than one patch — or you want a separate digging agent for a specific project — you need a separate skill per beat. The cleanest way is to make a separate copy of the files for each one.
 
-1. Copy the `/demo/` folder. Rename to something specific: `/demo-climate/`, `/demo-courts/`, `/demo-foreign-affairs/`.
-2. Edit the new folder's `beat-notes.md`, `source-list.md`, and `output-format.md` for that beat.
-3. Open `SKILL.md` in the new folder. In the frontmatter at the top, change:
-   - `name:` to something unique — e.g., `digging-agent-climate`
-   - `description:` to mention the new beat — e.g., *"A digging agent for a climate reporter — produces daily digests on energy policy, COP negotiations, and emissions data."*
-4. Zip the new folder. Upload it as a separate Claude Skill.
+Two ways to do this:
+
+**On GitHub** — Fork this repo a second time (or third). Rename your second fork to something specific (`digging-agent-climate`, `digging-agent-courts`). Edit the context files in that fork for the new beat. Download as a zip. Upload to Claude Skills.
+
+**Locally** — After forking once and downloading, duplicate the folder on your machine. Rename to `digging-agent-climate/`. Edit the context files in the copy. Zip and upload as a new skill.
+
+Either way, **edit the `SKILL.md` frontmatter** in the new copy:
+
+- `name:` should be unique — e.g., `digging-agent-climate`
+- `description:` should mention the new beat — e.g., *"A digging agent for a climate reporter — produces daily digests on energy policy, COP negotiations, and emissions data."*
 
 You can have as many digging agents installed as you want. To invoke one specifically, say *"run my climate digging agent"* — Claude matches the name. Or describe the task — *"give me a digest of yesterday's COP coverage"* — and Claude picks the right skill from the descriptions.
 
