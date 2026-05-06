@@ -137,8 +137,7 @@ beat-notes.md            ← Your editorial position on what matters in your pat
 source-list.md           ← Your editorial position on whose work to trust.
 output-format.md         ← Your editorial position on how output is shaped.
 
-demo/                    ← Clean install-ready version (no editing guidance).
-                           Used in the live workshop demo.
+
 ```
 
 ---
