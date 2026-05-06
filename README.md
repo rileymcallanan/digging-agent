@@ -142,19 +142,6 @@ output-format.md         ← Your editorial position on how output is shaped.
 
 ---
 
-## Four starter recipes (same skeleton, different jobs)
-
-The same agent works for several common journalism patterns. Detailed recipes will be added to this repo after the workshop:
-
-1. **Beat Monitor** — watch a regulator, court, company, or council. Flag when something changes.
-2. **Source Triage** — compare how multiple outlets covered the same story.
-3. **Document Scanner** — run over a folder of PDFs, transcripts, or FOI responses to surface anomalies and patterns.
-4. **Trend Tracker** — track a topic across many sources over weeks or months. Flag what's shifting.
-
-Each recipe uses the same three context files; what changes is what you put in them.
-
----
-
 ## Want it to run on its own?
 
 What this repo gives you is a *configured agent* you trigger manually. If you want it to run automatically, three options:
