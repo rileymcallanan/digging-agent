@@ -31,9 +31,9 @@ I am a domestic politics reporter at CBS news for their social media team. I tur
 **Example:**
 1. Illinois 2026 campaigns
 2. Maine Democratic Primary
-3. Graham Plattner
+3. Gas prices
 4. Scientology speed running
-5. Illinois candidates opinions on the Iran War 
+5. Midterm candidates opinions on the Iran War 
 
 ---
 
