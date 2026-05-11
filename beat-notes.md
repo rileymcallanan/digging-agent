@@ -8,21 +8,19 @@
 ## Who I am
 
 *One or two sentences about your role and where you work. The agent uses this for register and framing.*
-
-**Example:**
-I'm a health policy reporter at a UK national paper. I write for a general audience but my readers expect more than press-release rewrites — they want to understand what a policy change means for them.
+I am a domestic politics reporter at CBS news for their social media team. I turn all of my work into social media stories so stories with strong visual components or intriguing interviews are particularly important to me. 
 
 ---
 
 ## My beat
 
-*What you cover, in your own words. Be specific — "health" is too broad; "NHS workforce, primary care reform, and pharma pricing" is the level of detail that helps.*
-
-**Example:**
-- NHS England policy and operations (workforce, waiting lists, primary care reform)
-- Pharmaceutical pricing and access (NICE decisions, drug shortages, pharma negotiations with DHSC)
-- Public health (vaccination uptake, screening programmes, health inequalities)
-- I do *not* cover: NHS clinical research, individual hospital trust-level scandals (unless national pattern), social care (separate beat).
+- I cover political stories that have a big enough impact on people's lives that they will be trending on social media. 
+- 2026 midterm races (particularly Illinois and Maine)
+- stories where politics and culture are coliding
+- when political stories are trending
+- insurgent political candidates
+- political scandles
+- My stories need to appeal to a wide US audience, be about politics, and be interesting enough to go viral on social media.
 
 ---
 
@@ -31,11 +29,11 @@ I'm a health policy reporter at a UK national paper. I write for a general audie
 *The 3–5 stories or threads you're actively tracking this month. Update this every couple of weeks. This is the highest-signal section.*
 
 **Example:**
-1. **GP contract negotiations 2026** — talks broke down in March. Watching for return-to-table signals from BMA or DHSC.
-2. **NICE access reforms** — consultation closed in February. Expecting draft guidance late summer. Watching for leaks.
-3. **Workforce plan refresh** — promised for autumn. Watching for staffing data, royal college briefings, leaked drafts.
-4. **Weight-loss drug rollout** — NHS commissioning decisions on tirzepatide expansion. Story of the year if access widens.
-5. **Pharmacy First** — six months in. Watching for evaluation data, pharmacist union responses, GP pushback.
+1. Illinois 2026 campaigns
+2. Maine Democratic Primary
+3. Graham Plattner
+4. Scientology speed running
+5. Illinois candidates opinions on the Iran War 
 
 ---
 
@@ -44,11 +42,12 @@ I'm a health policy reporter at a UK national paper. I write for a general audie
 *Standing themes that are not story-specific but always worth flagging. Think: "if anything happens with X, I want to know."*
 
 **Example:**
-- New peer-reviewed research that contradicts current NHS policy
-- Whistleblower stories or leaked internal documents from DHSC, NHS England, or major royal colleges
-- International comparisons where the UK is suddenly an outlier (good or bad)
-- Anything involving named senior figures: [list 5–10 people you cover]
-- Patient-experience stories that contradict official data
+- Political scandal 
+- Whistleblower stories or leaked internal documents regarding midterm races
+- Anything involving named senior figures: Graham Plattner, Susan Collins, Juliana Stratton, Don Tracy
+- Protests
+- Political movements trending online
+- Political rallies or events 
 
 ---
 
@@ -57,17 +56,12 @@ I'm a health policy reporter at a UK national paper. I write for a general audie
 *Be specific about what to filter out. The agent will cut these without asking.*
 
 **Example:**
-- Routine NHS press releases without policy substance
-- US health system stories unless directly relevant to UK debate
-- Wellness / consumer health / nutrition stories
-- Hospital league tables (not my beat)
-- Anything from clearly partisan health-policy think tanks unless they're breaking news, not opinion
+- The biggest stories on the White House each day. Someone else covers those. 
+- Anything from clearly partisan political think tanks unless they're breaking news, not opinion
 
 ---
 
 ## How I think about my readers
 
 *A sentence or two that helps the agent calibrate what's worth surfacing.*
-
-**Example:**
-My readers are educated generalists who read the paper for reliable analysis. They don't need basic explanations of how the NHS works. They do need clear framing of why a development matters and what it changes. They are sceptical of hype.
+My viewers are people between the ages of 20-45 who get their news on social media. They want to be informed but also entertained. 
