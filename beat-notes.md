@@ -29,10 +29,10 @@ I am a domestic politics reporter at CBS news for their social media team. I tur
 *The 3–5 stories or threads you're actively tracking this month. Update this every couple of weeks. This is the highest-signal section.*
 
 **Example:**
-1. Illinois 2026 campaigns
-2. Maine Democratic Primary
-3. Gas prices
-4. Scientology speed running
+1. 2026 midterms 
+2. Maine election
+3. Iowa election
+4. Gas prices
 5. Midterm candidates opinions on the Iran War 
 
 ---
@@ -44,10 +44,13 @@ I am a domestic politics reporter at CBS news for their social media team. I tur
 **Example:**
 - Political scandal 
 - Whistleblower stories or leaked internal documents regarding midterm races
-- Anything involving named senior figures: Graham Plattner, Susan Collins, Juliana Stratton, Don Tracy
+- Anything involving named senior figures: Graham Plattner, Susan Collins, Juliana Stratton, Don Tracy, Roy Cooper, Michael Whatley, Mike Rogers, Sherrod Brown, John Husted, Mike DeWine, Mary Peltola, Jon Ossoff, John Sununu, Chris Pappas, Ken Paxton, 
+- 2026 midterm races
 - Protests
 - Political movements trending online
-- Political rallies or events 
+- Political rallies or events
+- trends online
+- Local stories with national signfigance: crime, public education, education, antisemitism, immigration 
 
 ---
 
