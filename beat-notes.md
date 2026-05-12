@@ -14,7 +14,7 @@ I am a domestic politics reporter at CBS news for their social media team. I tur
 
 ## My beat
 
-- I cover political stories that have a big enough impact on people's lives that they will be trending on social media. 
+- I cover political stories that have a big enough impact on people's lives that they will be trending on social media.
 - 2026 midterm races (particularly Illinois and Maine)
 - stories where politics and culture are coliding
 - when political stories are trending
@@ -50,7 +50,7 @@ I am a domestic politics reporter at CBS news for their social media team. I tur
 - Political movements trending online
 - Political rallies or events
 - trends online
-- Local stories with national signfigance: crime, public education, education, antisemitism, immigration 
+- Local stories with national signfigance: crime, education, antisemitism, immigration, voting, protests, technology, AI, energy, gas prices
 
 ---
 
