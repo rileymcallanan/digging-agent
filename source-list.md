@@ -14,16 +14,64 @@
 
 **Local publications**
 - Portland Press Herald
-- The Maine Moniter 
+- The Maine Moniter
+- The Desmoines register 
 - Chicago Tribune
+- Los Angeles Times
+- The Boston Globe
+- Seattle Times
+- Miami Herald
+- San Francisco Chronicle
+- Star Tribune
+- Philedelphia inquierer
+- New York Post
+- The Houston Chronicle
+- Anniston Star
+- Anchorage Daily News
+- The Arizona Republican
+- Arkansas Democrat-Gazette
+- The Denver Post
+- The New Haven Register
+- Newark Post
+- Gainesville Sun
+- The Atlanta Journal-Constitution
+- Honolulu Star-Advertiser
+- The Idaho Press
+- The Indianapolis Star
+- The Wichita Eagle
+- Courier-Journal
+- The Advocate
+- The Baltimore Banner
+- The Detroit Free Press
+- Minnesota Star Tribune
+- The Clarion-Ledger
+- The Billings Gazette
+- Omaha World-Herald
+- The Las Vegas Review-Journal
+- New Hampshire Union Leader
+- The Star-Ledger
+- The Charlotte Observer
+- The News & Observer in Raleigh
+- The Forum of Fargo-Moorhead
+- The Plain Dealer
+- The Oklahoman
+- The Oregonian
+- Pittsburgh Post-Gazette
+- The Providence Journal
+- The Post and Courier
+- The Tennessean
+- Houston Chronicle
+- The Salt Lake Tribune
+- Burlington Free Press
+- The Virginian-Pilot
+- The Charleston Gazette-Mail
+- Milwaukee Journal Sentinel
+- Casper Star-Tribune 
 
 
 **Beat reporters (any outlet)**
 - After School by Casey Lewis (Substack)
 - Randy Billings (Portland Press Herald) 
-- Jeremy Gorner (Chicago Tribune) 
-- Robert McCoppin (Chicago Tribune) 
-- Dan Petrella (Chicago Tribune)
 - User Mag by Taylor Lorenz (Substack)
 - The Closisng Line (Substack)
   
@@ -59,10 +107,21 @@
 *A short list of URLs, RSS feeds, or named writers the agent should always check, in priority order. The daily prompt will use this.*
 
 **Example:**
-1. https://afterschool.substack.com/ (Tier 1)
-2. https://www.pressherald.com/tag/election-2026/(primary)
-3. https://www.gov.uk/government/organisations/department-of-health-and-social-care (primary)
-4. https://www.chicagotribune.com/author/dan-petrella/ (primary)
+1. https://punchbowl.news/ (Tier 1)
+2. https://www.politico.com/playbook (primary) 
+3. https://afterschool.substack.com/ (Tier 1)
+4. https://www.pressherald.com/tag/election-2026/ (Tier 2)
+5. https://www.propublica.org/ (Tier 1)
+6. https://www.chicagotribune.com/ (Tier 2)
+7. https://www.latimes.com/ (Tier 2)
+8. https://www.npr.org/ (primary) 
+9. https://www.miamiherald.com (Tier 2)
+10. https://www.inquirer.com (Tier 2)
+11. https://www.houstonchronicle.com (Tier 2)
+12. https://www.sfchronicle.com (Tier 2)
+13. https://www.thebaltimorebanner.com (Tier 2)
+14. https://www.pilotonline.com (Tier 2)
+15. https://www.seattletimes.com (Tier 2)
 
 
 ---
